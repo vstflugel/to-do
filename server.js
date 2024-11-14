@@ -24,7 +24,7 @@ const app = express();
 
 // Allow only your Vercel frontend to access this backend
 app.use(cors({
-  origin: 'https://to-do-frontend-red.vercel.app/' // Replace with the exact URL of your Vercel frontend
+  origin: 'https://to-do-frontend-red.vercel.app' // Replace with the exact URL of your Vercel frontend
 }));
 
 app.use(express.json());
